@@ -12,7 +12,7 @@ Siga os passos abaixo para rodar o script de análise de sentimentos:
    A maioria dos editores modernos permite abrir um terminal integrado.
 
 4. **Navegue até a pasta onde o arquivo foi salvo**  
-Use o comando `cd` para mudar de diretório, e `ls` (ou `dir` no Windows) para listar os arquivos da pasta:
+   Use o comando `cd` para mudar de diretório, e `ls` (ou `dir` no Windows) para listar os arquivos da pasta:
 
 ```bash
 cd caminho/para/a/pasta
