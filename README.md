@@ -3,7 +3,7 @@
 Siga os passos abaixo para rodar o script de análise de sentimentos:
 
 ### 1. Baixe o arquivo do código-fonte
-Faça o download do arquivo `analise-sentimentos.py`.
+Faça o download do arquivo `analise_sentimentos.py`.
 
 ### 2. Abra o arquivo em um editor de texto
 Recomendamos utilizar um editor como **VS Code**, **Sublime Text** ou qualquer outro de sua preferência.
@@ -38,5 +38,5 @@ Se necessário, atualize sua versão do Python para garantir compatibilidade.
 Com o terminal posicionado na pasta correta, rode o comando abaixo para executar o script:
 
 ```bash
-python3 analise-sentimentos.py
+python3 analise_sentimentos.py
 ```
