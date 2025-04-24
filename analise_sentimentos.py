@@ -1,3 +1,4 @@
+import json
 import string
 
 RED = '\033[31m'
@@ -119,15 +120,26 @@ def classifica_comentario(peso_positivo, peso_negativo):
       return (YELLOW + "\nEsse comentário é neutro ou ambíguo\n" + RESET)
 
 
+def analisa_lista_comentario(lista_json):
+   lista_comentarios = json.loads(lista_json)
+
+   for chave, comentario in lista_comentarios.items():
+      termos_positivos = verifica_quantia_positivas(comentario)
+      termos_negativos = verifica_quantia_negativas(comentario)
+      peso_positivo = define_peso_positivo(termos_positivos)
+      peso_negativo = define_peso_negativo(termos_negativos)
+      resultado = classifica_comentario(peso_positivo, peso_negativo)
+
+      print(f"\nComentário {chave}: ")
+      print(resultado)
+
+
 def main():
    print(BOLD + BLUE + "\nEsse é um sistema de análise de sentimentos.\n" +
          RESET)
 
    while True:
-      opcao = int(
-          input(BOLD + BLUE + "\nEscolha:" + YELLOW +
-                "\n1-Analisar comentário" + PURPLE + "\n2-Sair" + BLUE +
-                "\nOpção:  " + RESET))
+      opcao = int(input(BOLD + BLUE + "\nEscolha:" + YELLOW + "\n1-Analisar 1 comentário\n2-Analisar lista de comentário (JSON)" + PURPLE + "\n3-Sair" + BLUE + "\nOpção:  " + RESET))
 
       if opcao == 1:
          comentario = input("Digite um comentário: ")
@@ -139,6 +151,9 @@ def main():
          print(resultado)
 
       elif opcao == 2:
+         lista_json = input("Digite uma lista de comentários em formato JSON: ")
+         analisa_lista_comentario(lista_json)
+      elif opcao == 3:
          break
 
 main()
