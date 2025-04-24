@@ -18,7 +18,16 @@ Siga os passos abaixo para rodar o script de análise de sentimentos:
 cd caminho/para/a/pasta
 ls 
 ```
-5. **Execute o script**
+5.**Verifique sua versão Python**
+   O script precisa da versão 3.6 ou superior do Python. Logo, verifique sua versão e se necessário atualize. Execute o comando abaixo:
+```
+python --version
+```
+ou
+```
+python3 --version
+```
+6.**Execute o script**
    Com o terminal posicionado na pasta correta, execute o comando abaixo:
    
 ```
