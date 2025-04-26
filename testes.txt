@@ -15,7 +15,7 @@ TESTE OPÇÃO 1
 
 TESTE OPÇÃO 2
 
-{"1": "Esse produto é excelente e muito confiável.","2": "Gostei muito do atendimento, foi perfeito!","3": "Péssimo serviço, totalmente decepcionante.","4": "Esse lugar é horrível, não gostei nada.","5": "O produto é bom, mas o atendimento foi confuso.","6": "Não é excelente, mas é bom.","7": "Não gostei muito, mas também não é péssimo."}
+{"1": "esse produto é excelente e muito confiável.","2": "gostei muito do atendimento, foi perfeito!","3": "péssimo serviço, totalmente decepcionante.","4": "esse lugar é horrível, não gostei nada.","5": "o produto é bom, mas o atendimento foi confuso.","6": "não é excelente, mas é bom.","7": "não gostei muito, mas também não é péssimo."}
 
 - Comentário 1: Positivo 
 - Comentário 2: Positivo 
