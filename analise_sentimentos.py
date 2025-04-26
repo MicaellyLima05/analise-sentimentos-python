@@ -260,3 +260,12 @@ def main():
          break
 
 main()
+
+#{"1": "esse produto é excelente e muito confiável.","2": "gostei muito do atendimento, foi perfeito!","3": "péssimo serviço, totalmente decepcionante.","4": "esse lugar é horrível, não gostei nada.","5": "o produto é bom, mas o atendimento foi confuso.","6": "não gostei muito, mas também não é péssimo."}
+
+#- Comentário 1: Positivo 
+#- Comentário 2: Positivo 
+#- Comentário 3: Negativo
+#- Comentário 4: Negativo 
+#- Comentário 5: Neutro 
+#- Comentário 6: Positivo
